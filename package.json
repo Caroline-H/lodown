@@ -1,0 +1,29 @@
+{
+  "name": "lowdown_cheffernan",
+  "version": "1.0.0",
+  "description": "higher order functions",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "istanbul cover _mocha -- test/ -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Caroline-H/lodown.git"
+  },
+  "author": "cheffernan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Caroline-H/lodown/issues"
+  },
+  "homepage": "https://github.com/Caroline-H/lodown#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "i": "^0.3.5",
+    "istanbul": "^0.4.4",
+    "mocha": "^2.5.3",
+    "sinon": "^1.17.4"
+  }
+}
