@@ -79,7 +79,7 @@ function last(array, n) {
     if (!Array.isArray(array) || n < 0) return [];
     if (n === undefined) return array[array.length - 1];
     if (n > array.length) return array;
-    if (n > 0) return array.slice(n - 1, array.length);
+    if (n > 0) return array.slice(array.length - n, array.length);
 }
 module.exports.last = last;
 
